@@ -1,0 +1,17 @@
+Bagian 1
+14. Disebabkan karena pada kode program `protected string myType = "Book";`yang merupakan deklarasi variabel yang bernama "myType" 
+yang memiliki tipe data string dengan field "Book". Kata kunci "protected" membuat variabel tersebut hanya dapat di akses dari dalam 
+kelas tempat variabel tersebut didefinisikan atau dari kelas turunan yang mewrisi kelas ini
+pesan kesalahan muncul Karena  `protected string myType = "Book";` adalah deklarasi variabel dengan nama `myType` yang memiliki tipe data string dan diinisialisasi dengan nilai awal "Book." Kata kunci `protected` berarti variabel ini hanya bisa diakses dari dalam kelas tempat ia didefinisikan atau dari kelas turunan yang mewarisi kelas ini.
+sehingga akan menampilkan pesan error Severity Code	Description Project	File	Line	Suppression State
+Error	CS0122	'Product_714220031.myType' is inaccessible due to its protection level	P4_1_714220031	D:\Pemrograman II_PBO\Pertemuan04\Praktikum\P4_1_714220031\P4_1_714220031\ProductTest_714220031.cs	15	Active
+
+19. Pada saat program di buld dan di run, tidak terjadi eror tidak menghasilkan output apapun.
+karena code 'protected string myType = 'Book'' yang mendeklarasikan variabel book diubah menjadi private string myType namun tidak mendeklarasikan variabel myType.
+
+24. Karena ketika mengatur myProduct.Mytype = "DVD";, nilainya akan disimpan sebagai "dvd" dalam properti myType, dan saat kita mencetaknya dengan Console.WriteLine(myProduct.Mytype);, maka outputnya akan menjadi "DVD"
+
+
+Bagian 2
+8. Pada output bagian title dari buku tidak muncul karena pada class book methodnya belum dibuat method dengan nama class mytitle. termasuk dalam fenomena inheritance.
+12. Title dari buku tersebut tidak muncul karena pada output tidak mengeeksekusi perintah myTitle karena pada property myTitle belum terinisialisasi dalam class Book_714220031 Fenomena ini dalam OOP disebut Inheritance 
