@@ -29,7 +29,6 @@ namespace P4_2_714220031
         // Method
         public override void Display()
         {
-            //string ripeness = isRipe ? "ripe" : "unripe";
             Console.WriteLine($"ini adalah {Name} rasanya {variety}");
         }
     }
