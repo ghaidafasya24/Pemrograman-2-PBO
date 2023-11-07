@@ -94,6 +94,7 @@ namespace P5_4_714220031
                 MessageBox.Show("Harus memilih salah satu dari pilihan kelas", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+
             if (rb_senin.Checked)
             {
                 jadwal = "Senin && Rabu, 14.00 - 16.00";
