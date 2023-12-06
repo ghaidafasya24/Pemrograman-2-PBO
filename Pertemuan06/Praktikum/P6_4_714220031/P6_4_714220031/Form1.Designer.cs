@@ -201,6 +201,7 @@
             this.rb_tingkat3.TabStop = true;
             this.rb_tingkat3.Text = "Tingkat 3";
             this.rb_tingkat3.UseVisualStyleBackColor = true;
+            this.rb_tingkat3.CheckedChanged += new System.EventHandler(this.rb_tingkat3_CheckedChanged);
             // 
             // rb_tingkat2
             // 
@@ -227,18 +228,21 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Lime;
             this.button1.Location = new System.Drawing.Point(417, 303);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 12;
             this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.EnabledChanged += new System.EventHandler(this.button1_EnabledChanged);
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);

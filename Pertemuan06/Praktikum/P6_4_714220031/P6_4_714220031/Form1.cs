@@ -120,6 +120,7 @@ namespace P6_4_714220031
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
+        
             {
                 if (textBox3.Text == "")
                 {
@@ -216,6 +217,10 @@ namespace P6_4_714220031
             string textBox4 = "";
             string textBox5 = "";*/
 
+            /*string errorMessage = "";
+            if (string.IsNullOrEmpty())*/
+
+
             if (rb_tingkat1.Checked)
             {
                 PilihanTingkatan = "Tingkat 1";
@@ -247,6 +252,37 @@ namespace P6_4_714220031
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox5.Text == "")
+            {
+                epWarning.SetError(textBox5, " Textbox huruf tidak boleh kososng !");
+                epWrong.SetError(textBox5, "");
+                epCorrect.SetError(textBox5, "");
+
+            }
+            else
+            {
+                if ((textBox1.Text).All(Char.IsLetter))
+                {
+                    epWarning.SetError(textBox5, "");
+                    epWrong.SetError(textBox5, "");
+                    epCorrect.SetError(textBox5, "Betul!");
+                }
+                else
+                {
+                    epWrong.SetError(textBox5, "Inputan hanya boleh huruf!");
+                    epWarning.SetError(textBox5, "");
+                    epCorrect.SetError(textBox5, "");
+                }
+            }
+        }
+
+        private void rb_tingkat3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_EnabledChanged(object sender, EventArgs e)
         {
 
         }

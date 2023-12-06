@@ -49,7 +49,7 @@ namespace P5_4_714220031
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            string nama = "";
             string jenisKelamin = comboBox1.SelectedItem.ToString();
             DateTime tanggalLahir = dtpLahir.Value;
 
@@ -117,7 +117,7 @@ namespace P5_4_714220031
             }
 
             MessageBox.Show(
-             "Nama : " + label2.Text +
+             "Nama : " + nama +
              "\nJenis Kelamin: " + jenisKelamin +
              "\nTanggal Lahir: " + tanggalLahir.ToString("dd MMMM yyyy") +
              "\nPilihan Kelas : " + kelas +
@@ -161,6 +161,11 @@ namespace P5_4_714220031
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
