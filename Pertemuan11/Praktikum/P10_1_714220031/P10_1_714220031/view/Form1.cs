@@ -140,5 +140,10 @@ namespace P10_1_714220031
                 Tampil();
             }
         }
+
+        private void DataMahasiswa_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

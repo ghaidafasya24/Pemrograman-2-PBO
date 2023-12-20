@@ -73,6 +73,7 @@
             this.DataMahasiswa.Size = new System.Drawing.Size(711, 163);
             this.DataMahasiswa.TabIndex = 0;
             this.DataMahasiswa.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataMahasiswa_CellClick);
+            this.DataMahasiswa.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataMahasiswa_CellContentClick);
             // 
             // gb_form_datamhs
             // 
