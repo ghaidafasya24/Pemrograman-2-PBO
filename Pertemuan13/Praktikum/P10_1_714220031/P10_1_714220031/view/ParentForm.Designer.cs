@@ -89,18 +89,19 @@
             this.praktikum12ToolStripMenuItem.Name = "praktikum12ToolStripMenuItem";
             this.praktikum12ToolStripMenuItem.Size = new System.Drawing.Size(122, 20);
             this.praktikum12ToolStripMenuItem.Text = "Tugas Praktikum 12";
+            this.praktikum12ToolStripMenuItem.Click += new System.EventHandler(this.praktikum12ToolStripMenuItem_Click);
             // 
             // dataMasterBarangToolStripMenuItem
             // 
             this.dataMasterBarangToolStripMenuItem.Name = "dataMasterBarangToolStripMenuItem";
-            this.dataMasterBarangToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.dataMasterBarangToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dataMasterBarangToolStripMenuItem.Text = "Data Master Barang";
             this.dataMasterBarangToolStripMenuItem.Click += new System.EventHandler(this.dataMasterBarangToolStripMenuItem_Click);
             // 
             // dataTransaksiToolStripMenuItem
             // 
             this.dataTransaksiToolStripMenuItem.Name = "dataTransaksiToolStripMenuItem";
-            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.dataTransaksiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.dataTransaksiToolStripMenuItem.Text = "Data Transaksi";
             this.dataTransaksiToolStripMenuItem.Click += new System.EventHandler(this.dataTransaksiToolStripMenuItem_Click);
             // 

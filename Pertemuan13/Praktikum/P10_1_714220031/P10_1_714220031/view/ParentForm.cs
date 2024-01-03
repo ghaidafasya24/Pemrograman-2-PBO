@@ -56,5 +56,10 @@ namespace P10_1_714220031.view
         {
             Application.Exit();
         }
+
+        private void praktikum12ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
